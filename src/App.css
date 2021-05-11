@@ -1,0 +1,1006 @@
+header {
+  padding: 1em 0;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background: #1ac6da;
+}
+.colored {
+  background-color: white;
+  width: 50%;
+}
+br {
+  height: 10px;
+}
+.sl {
+  width: 95%;
+}
+a:hover {
+  text-decoration: none;
+}
+
+header .row > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+}
+header h1 {
+  background: white;
+  padding: 8px 20px;
+  font-weight: 700;
+  color: #1ac6da;
+  display: inline-block;
+}
+header h2 {
+  background: #000;
+  padding: 8px 20px;
+  font-weight: 700;
+  color: #fff;
+  display: inline-block;
+}
+.map_wrapper {
+  max-width: 580px;
+}
+.map_container {
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+  padding: 9px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+.theme_bg {
+  background-color: #1ac6da !important;
+  color: #fff !important;
+  box-shadow: inset 0 3px 5px rgb(0 0 0 / 13%);
+}
+.cons_container {
+  background-color: #1ac6da;
+  color: #fff;
+}
+.fa-star,
+.fa-star-half {
+  color: #debb6c;
+}
+
+.default_wrapper button {
+  width: 50%;
+  color: #fff;
+  justify-content: center;
+  padding: 10px 5px;
+  margin-top: 10px;
+  border: 2px solid #000;
+  background: #000;
+  border-radius: 4px;
+}
+.step6 .default_box {
+  padding: 12px 7px;
+}
+.default_box {
+  width: 200px;
+  padding: 26px 10px;
+  margin: 6px 10px;
+  border: 1px solid #1ac6da;
+  border-radius: 4px;
+  color: #1ac6da;
+  background-color: #fff;
+  cursor: pointer;
+}
+.default_box:visited {
+  background-color: #1ac6da;
+}
+.default_box h3 {
+  margin-top: 8px;
+  font-size: 22px;
+}
+.default_box i {
+  font-size: 30px;
+}
+.ex_card {
+  border: 1px solid #f2f2f2;
+}
+.ex_card main {
+  color: #fff;
+  background-color: #037f8c;
+}
+.why1euro_container {
+  background-color: rgba(26, 198, 218, 0.1);
+}
+footer {
+  background-color: #1ac6da;
+}
+
+footer a {
+  color: #fff;
+}
+
+.footer_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-row-custom {
+  justify-content: center;
+}
+.l {
+  float: left;
+  font-size: 11px;
+}
+
+.Form-Header {
+  color: #59adb7;
+  font-size: 25px;
+  margin: 5px 0px;
+}
+.form-label-custom9 {
+  margin-bottom: 0rem;
+  font-size: 10pt;
+  display: flex;
+}
+.form-address {
+  width: 406px;
+  font-size: 20px;
+}
+.form-place {
+  width: 103px;
+  font-size: 20px;
+}
+.form-nr {
+  width: 103px;
+  font-size: 20px;
+}
+.form-postcode {
+  width: 290px;
+  font-size: 20px;
+}
+.form-row1 {
+  margin-left: 280px;
+}
+.lab {
+  font-size: 12px;
+  margin-right: 136px;
+}
+.lab2 {
+  margin-left: -283px;
+  font-size: 12px;
+}
+.lab3 {
+  margin-left: 79px;
+  font-size: 12px;
+}
+.screen9 {
+  margin-left: 320px;
+}
+.screen9 button {
+  width: 68%;
+  color: #fff;
+  padding: 10px 5px;
+  margin: 20px 0;
+  border: 2px solid #000;
+  background: #000;
+  border-radius: 4px;
+}
+.screen8 {
+  margin-left: 252px;
+}
+.screen8 button {
+  width: 98%;
+  color: #fff;
+  padding: 10px 5px;
+  margin: 20px 0;
+  border: 2px solid #000;
+  background: #000;
+  border-radius: 4px;
+  margin-left: 76px;
+}
+.plz {
+  width: 120px;
+  height: 47px;
+  font-size: 20px;
+}
+.ort {
+  width: 300px;
+  height: 47px;
+  font-size: 20px;
+  margin-left: -63px;
+}
+.str {
+  width: 300px;
+  height: 47px;
+  font-size: 20px;
+}
+.nr {
+  width: 120px;
+  height: 47px;
+  font-size: 20px;
+  margin-left: 120px;
+}
+.form-group-custom {
+  padding: 2px;
+  margin-left: 3px;
+}
+.form-y {
+  width: 146px;
+  text-align: center;
+  font-size: 14pt;
+}
+
+
+.form-m-d {
+  width: 67px;
+  text-align: center;
+  font-size: 14pt;
+}
+@media (max-width: 768px) {
+  .default_wrapper {
+    width: 100%;
+  }
+  .logo {
+    width: 40%;
+    height: 40%;
+  }
+  .brands_all_text {
+    font-size: 30px;
+  }
+  .brands_all {
+    width: 100%;
+  }
+  .footer_flex {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.header-mobile {
+  display: none;
+}
+.table-mobile {
+  display: none;
+}
+.header-banner {
+  display: flex;
+}
+@media (max-width: 600px) {
+  .colored {
+    background-color: white;
+    width: 50%;
+  }
+  .header-mobile {
+    display: flex !important;
+  }
+  .header-banner {
+    display: none;
+  }
+  .mobile {
+    display: inline;
+  }
+  header h4 {
+    background: white;
+    font-weight: 700;
+    color: #1ac6da;
+    font-size: 19px;
+    width: fit-content;
+    padding: 0px 5px;
+  }
+  header h5 {
+    background: #000;
+    font-weight: 700;
+    font-size: 19px;
+    width: fit-content;
+    color: #fff;
+    padding: 0px 5px;
+  }
+  .header_mobile_container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .header_mobile_text {
+    margin-top: 3%;
+  }
+  .nav_bar_container {
+    font-size: 12px !important;
+  }
+  .table-desk {
+    display: none;
+  }
+  .table-mobile {
+    display: flex;
+  }
+  .rows {
+    display: inline-flex;
+  }
+  .grid_Mobile_1 {
+    display: contents;
+  }
+  .grid_Mobile {
+    display: flex;
+  }
+}
+@media (max-width: 600px) {
+  .default_box {
+    width: 40% !important;
+    padding: 5%  !important;
+    margin: 6px 5% !important;
+    border: 1px solid #1ac6da !important;
+    border-radius: 4px !important;
+    color: #1ac6da !important;
+    background-color: #fff !important;
+    cursor: pointer !important;
+    height: 86px !important;
+  }
+  .theme_bg {
+    background-color: #1ac6da !important;
+    color: #fff !important;
+    box-shadow: inset 0 3px 5px rgb(0 0 0 / 13%);
+  }
+  .default_wrapper button {
+    width: 100%;
+    color: #fff;
+    padding: 10px 5px;
+    
+    border: 2px solid #000;
+    background: #000;
+    border-radius: 4px;
+   
+  }
+  .screen9 {
+    margin-left: 0;
+  }
+  .default_box i {
+    font-size: 19px !important;
+    margin-top: -8px !important;
+  }
+  .default_box h3 {
+    margin-top: -2px !important;
+    font-size: 13px !important;
+  }
+  .default_wrapper {
+    width: 100%;
+    
+  }
+  .step6 .default_box {
+    width: 100% !important;
+    height: 45px !important;
+  }
+  .step5 p {
+    margin-left: -48px;
+  }
+  .default_box {
+    width: 175px;
+    padding: 26px 10px;
+    margin: 6px 10px;
+    border: 1px solid #1ac6da;
+    border-radius: 4px;
+    color: #1ac6da;
+    background-color: #fff;
+    cursor: pointer;
+    height: 86px;
+    /* margin-right: ; */
+    margin-left: 46px;
+  }
+  .str {
+    width: 379px;
+    height: 39px;
+    font-size: 15px;
+  }
+  .screen9 .form-row {
+    margin-left: 54px !important;
+  }
+  .screen9 button {
+    width: 77% !important;
+    color: #fff !important;
+    padding: 10px 5px !important;
+    margin: 20px 0 !important;
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    border-radius: 4px !important;
+    font-size: 15px !important;
+    height: 43px !important;
+    margin-left: 25px !important;
+  }
+
+  .l {
+    /* float: left; */
+    font-size: 11px;
+    margin-right: 230px;
+  }
+}
+
+@media (max-width: 400px) {
+  .colored {
+    background-color: white;
+    width: 50%;
+  }
+  .screen8 {
+    margin-left: 26px !important;
+  }
+  .plz {
+    width: 82px !important;
+    height: 35px !important;
+    font-size: 18px !important;
+  }
+  .lab {
+    font-size: 13px;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .ort {
+    width: 193px !important;
+    height: 36px !important;
+    font-size: 20px !important;
+    margin-left: -65px !important;
+  }
+  .str {
+    width: 200px !important;
+    font-size: 20px !important;
+    margin-left: -2px !important;
+  }
+  .lab3 {
+    margin-left: -33px;
+    font-size: 12px;
+  }
+  .screen8 button {
+    width: 85% !important;
+    color: #fff !important;
+    padding: 10px 5px !important;
+    margin: 20px 0 !important;
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    border-radius: 4px !important;
+    margin-left: -60px !important;
+    height: 43px !important;
+    font-size: 16px !important;
+  }
+  .nr {
+    height: 39px !important;
+    width: 74px !important;
+    font-size: 20px !important;
+    margin-left: 44px !important;
+  }
+  .screen9 {
+    margin-left: 0;
+  }
+ 
+}
+
+@media (max-width: 360px) {
+  .colored {
+    background-color: white;
+    width: 100%;
+  }
+  .default_wrapper {
+    width: 100%;
+    
+  }
+  
+  .step2 button {
+    width: 90% !important;
+    color: #fff !important;
+    padding: 10px 5px !important;
+    margin: 20px 0 !important;
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    border-radius: 4px !important;
+    margin-left: 7px !important;
+    height: 40px;
+    font-size: 14px;
+  }
+  .step2 p {
+    margin-left: 19px !important;
+  }
+  .step10 p {
+    margin-left: -3px !important;
+    font-size: 13px;
+  }
+  .step4 .default_box {
+    width: 110px !important;
+    padding: 26px 10px !important;
+    margin: 6px 10px !important;
+    border: 1px solid #1ac6da !important;
+    border-radius: 4px !important;
+    color: #1ac6da !important;
+    background-color: #fff !important;
+    cursor: pointer !important;
+    height: 84px !important;
+   
+  }
+  .step4 p {
+    margin-left: -3px !important;
+  }
+
+  
+  
+  .step5 p {
+    margin-left: -3px;
+  }
+  .step6 .form_btn_big .default_box {
+    width: 91% !important;
+    padding: 18px 10px !important;
+    margin: 6px 10px !important;
+    border: 1px solid #1ac6da !important;
+    border-radius: 4px !important;
+    color: #1ac6da !important;
+    background-color: #fff !important;
+    cursor: pointer !important;
+    height: 50px !important;
+   
+  }
+  .step6 .default_wrapper button {
+    width: 101% !important;
+    color: #fff !important;
+    padding: 10px 5px !important;
+    margin: 20px 0 !important;
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    border-radius: 4px !important;
+    margin-left: 6px !important;
+  }
+  .step7 .form-m-d {
+    width: 60px !important;
+    text-align: center !important;
+    font-size: 14pt !important;
+  }
+  
+  .step7 .form-y {
+    width: 120px !important;
+    text-align: center !important;
+    font-size: 14pt !important;
+  }
+  .step7 .default_wrapper button {
+    width: 100% !important;
+    color: #fff !important;
+    padding: 10px 5px !important;
+    margin: 20px 0 !important;
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    border-radius: 4px !important;
+    margin-left: 6px !important;
+  }
+  .step6 p {
+    margin-left: -3px !important;
+  }
+  .screen8 {
+    margin-left: -36px !important;
+  }
+  .step8 .ort {
+    width: 219px !important;
+    height: 36px !important;
+    font-size: 20px !important;
+    margin-left: -63px !important;
+  }
+  .screen8 .str {
+    width: 218px !important;
+    font-size: 21px !important;
+    margin-left: -2px !important;
+  }
+  .step8 .screen8 .nr {
+    width: 67px !important;
+    height: 38px !important;
+    font-size: 17px !important;
+    margin-left: 92px !important;
+  }
+  .step8 .lab3 {
+    margin-left: 60px !important;
+    font-size: 12px !important;
+  }
+  .step8 p {
+    margin-left: 70px;
+    font-size: 13px;
+  }
+  .screen8 button {
+    width: 96% !important;
+    color: #fff !important;
+    padding: 10px 5px !important;
+    margin: 20px 0 !important;
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    border-radius: 4px !important;
+    margin-left: 33px !important;
+  }
+  .step9 .str {
+    width: 317px !important;
+    height: 43px !important;
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .colored {
+    background-color: white;
+    width: 100%;
+  }
+  
+  
+  .step10 p {
+    margin-left: -44px;
+  }
+  .step4 .pp {
+    margin-left: -34px;
+  }
+  .scr2 .pp {
+    margin-left: -24px;
+    font-size: 13px;
+  }
+  .scr10 .pp {
+    margin-left: -44px;
+  }
+  .screen9 .form-row {
+    margin-left: 4px !important;
+  }
+ 
+  .form_btn_big .default_box {
+    width: 89% !important;
+    padding: 26px 10px !important;
+    margin: 6px 10px !important;
+    border: 1px solid #1ac6da !important;
+    border-radius: 4px !important;
+    color: #1ac6da !important;
+    background-color: #fff !important;
+    cursor: pointer !important;
+    height: 57px !important;
+  
+  }
+  .screen8 .ort {
+    width: 231px;
+    height: 36px;
+    font-size: 20px;
+    margin-left: -57px;
+  }
+  .step8 .default_wrapper .b {
+    width: 93% !important;
+    color: #fff !important;
+    padding: 10px 5px !important;
+    margin: 20px 0 !important;
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    border-radius: 4px !important;
+    margin-left: 25px !important;
+  }
+  .nr {
+    width: 98px !important;
+    font-size: 20px !important;
+    margin-left: -63px !important;
+    margin-left: 77px !important;
+    height: 39px !important;
+  }
+  .lab3 {
+    margin-left: -33px !important;
+    font-size: 12px !important;
+  }
+
+  
+  .scr10 .default_wrapper button {
+    
+    color: #fff;
+    padding: 10px 5px;
+    margin: 20px 0;
+    border: 2px solid #000;
+    background: #000;
+    border-radius: 4px;
+    margin-left: -25px;
+  }
+  .screen8 .str {
+    width: 267px;
+    font-size: 21px;
+    margin-left: -2px;
+  }
+
+  .step2 button {
+    width: 86% !important;
+    color: #fff !important;
+    padding: 10px 5px !important;
+    margin: 20px 0 !important;
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    border-radius: 4px !important;
+    margin-left: -6px !important;
+  }
+  
+  .screen9 button {
+    width: 100% !important;
+    color: #fff !important;
+    padding: 10px 5px !important;
+    margin: 20px 0 !important;
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    border-radius: 4px !important;
+    height: 43px !important;
+    margin-left: -2px !important;
+    font-size: 15px !important;
+  }
+  .screen8 .str {
+    width: 263px;
+    font-size: 21px;
+    margin-left: -2px;
+  }
+ 
+  
+  
+  
+  .form-row {
+    margin-left: 3px !important;
+  }
+  .default_box h3 {
+    margin-top: -1px !important;
+    font-size: 12px !important;
+  }
+}
+.form_btn_big {
+  width: 50% !important;
+}
+@media (max-width: 600px) {
+  .colored {
+    background-color: white;
+    width: 50%;
+  }
+  .form_btn_big {
+    width: 85% !important;
+  }
+  .step10 button {
+    width: 83%;
+    color: #fff;
+    padding: 10px 5px;
+    margin: 20px 0;
+    border: 2px solid #000;
+    background: #000;
+    border-radius: 4px;
+    margin-left: -83px;
+  }
+  .step2 .pp {
+    margin-left: -24px;
+    font-size: 13px;
+  }
+  .default_wrapper .btns7 {
+   
+    width: 80% !important;
+    color: #fff !important;
+    padding: 10px 5px !important;
+    margin: 20px 0 !important;
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    border-radius: 4px !important;
+  }
+  .screen8 .form-row {
+    margin-left: 35px !important;
+  }
+  
+  .step10 .pp {
+    margin-left: -71px;
+  }
+  .form-m-d {
+    width: 60px;
+    text-align: center;
+    font-size: 12pt;
+  }
+  .form-y {
+    width: 120px;
+    text-align: center;
+    font-size: 12pt;
+  }
+  .form-row {
+    margin-left: -22px !important;
+  }
+  .screen8 {
+    margin-left: 60px;
+  }
+  .plz {
+    width: 115px;
+    height: 36px;
+    font-size: 18px;
+  }
+  .lab {
+    font-size: 13px;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .ort {
+    width: 260px;
+    height: 36px;
+    font-size: 20px;
+    margin-left: -63px;
+  }
+  .str {
+    width: 294px;
+    height: 39px;
+    font-size: 15px;
+  }
+  .lab3 {
+    margin-left: -59px;
+    font-size: 12px;
+  }
+  .screen8 button {
+    width: 79%;
+    color: #fff;
+    padding: 10px 5px;
+    margin: 20px 0;
+    border: 2px solid #000;
+    background: #000;
+    border-radius: 4px;
+    margin-left: -24px;
+  }
+  .step4 .pp {
+    margin-left: -56px;
+  }
+  .nr {
+    width: 79px !important;
+    height: 38px !important;
+    font-size: 17px !important;
+    margin-left: 70px !important;
+  }
+  .screen9.form-row {
+    margin-left: 39px !important;
+  }
+  .step4 .default_box {
+    width: 110px !important;
+    padding: 20px 10px !important;
+    margin: 6px 10px !important;
+    border: 1px solid #1ac6da !important;
+    border-radius: 4px !important;
+    color: #1ac6da !important;
+    background-color: #fff !important;
+    cursor: pointer !important;
+    height: 84px !important;
+   
+  }
+  .step5 .default_box {
+    width: 43% !important;
+    padding: 20px 10px !important;
+    margin: 6px 10px !important;
+    border: 1px solid #1ac6da !important;
+    border-radius: 4px !important;
+  
+    cursor: pointer !important;
+    height: 84px !important;
+   
+  }
+
+}
+
+@media (max-width: 500px) {
+ 
+ 
+  .form-row {
+    margin-left: 3px;
+  }
+}
+
+@media (max-width: 768px) {
+  .colored {
+    background-color: white;
+    width: 100%;
+  }
+  .default_box {
+    width: 200px;
+    padding: 26px 10px;
+    margin: 6px 10px;
+    border: 1px solid #1ac6da;
+    border-radius: 4px;
+    color: #1ac6da;
+    margin-left: 72px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  .default_box h3 {
+    margin-top: 4px;
+    font-size: 17px;
+  }
+  .form-row {
+    margin-left: 177px;
+  }
+  
+  .screen8 {
+    margin-left: -32px;
+  }
+  .nr {
+    width: 100px;
+    height: 47px;
+    font-size: 20px;
+    margin-left: 68px;
+  }
+  .lab3 {
+    margin-left: -74px;
+    font-size: 12px;
+  }
+  .ort {
+    width: 260px;
+    height: 47px;
+    font-size: 20px;
+    margin-left: -63px;
+  }
+  .step9 .pp {
+    margin-left: 57px;
+    font-size: 17px;
+  }
+  .screen9 {
+    margin-left: 0px;
+  }
+  .screen9 .str {
+    width: 409px;
+    height: 47px;
+    font-size: 20px;
+  }
+  .screen9 .form-row {
+    margin-left: 140px;
+  }
+  .step9 button {
+    width: 62%;
+    color: #fff;
+    padding: 10px 5px;
+    margin: 20px 0;
+    border: 2px solid #000;
+    background: #000;
+    border-radius: 4px;
+    margin-left: 11px;
+  }
+  .step2 button {
+    width: 80%;
+    color: #fff;
+    padding: 10px 5px;
+    margin: 20px 0;
+    border: 2px solid #000;
+    background: #000;
+    border-radius: 4px;
+    margin-left: -41px;
+  }
+  .step2 p {
+    margin-left: 95px;
+    font-size: 16px;
+  }
+
+  .step10 button {
+    width: 83%;
+    color: #fff;
+    padding: 10px 5px;
+    margin: 20px 0;
+    border: 2px solid #000;
+    background: #000;
+    border-radius: 4px;
+    margin-left: -3px;
+  }
+  .step10 .pp {
+    margin-left: 44px;
+    font-size: 17px;
+  }
+  .step4 .pp {
+    margin-left: 44px;
+    font-size: 17px;
+  }
+  .step5 .pp {
+    margin-left: 44px;
+    font-size: 17px;
+  }
+  .step5 button {
+    width: 100%;
+    color: #fff;
+    padding: 10px 5px;
+    margin: 20px 0;
+    border: 2px solid #000;
+    background: #000;
+    border-radius: 4px;
+   
+  }
+  .step6 button {
+    width: 87%;
+    color: #fff;
+    padding: 10px 5px;
+    margin: 20px 0;
+    border: 2px solid #000;
+    background: #000;
+    border-radius: 4px;
+    margin-left: 7px;
+  }
+  .step8 button {
+    width: 65%;
+    color: #fff;
+    padding: 10px 5px;
+    margin: 20px 0;
+    border: 2px solid #000;
+    background: #000;
+    border-radius: 4px;
+    margin-left: 62px;
+  }
+}
+.default_wrapper{
+  width: 100%;
+  justify-content: center;
+}
